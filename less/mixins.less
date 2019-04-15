@@ -1,1 +1,24 @@
 // Mixins Here
+
+.header-font(@font-size) {
+    font-family: 'Russo One';
+    font-size: @font-size;
+}
+
+.p-font (@font-size; @line-height;) {
+    font-family: 'Ubuntu';
+    font-size: @font-size;
+    line-height: @line-height;
+}
+
+.btn (@font-size; @border-radius) {
+    background-color: black;
+    color: white;
+    border-radius: @border-radius;
+    font-size: @font-size;
+    &:hover {
+        background-color: white;
+        color: black;
+    }  
+}
+
