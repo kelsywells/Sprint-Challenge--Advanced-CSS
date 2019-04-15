@@ -11,11 +11,12 @@
     line-height: @line-height;
 }
 
-.btn (@font-size; @border-radius) {
+.btn (@font-size: 2rem; @border-radius: 2px) {
+    font-size: @font-size;
+    border-radius: @border-radius;
+    text-decoration: none;
     background-color: black;
     color: white;
-    border-radius: @border-radius;
-    font-size: @font-size;
     &:hover {
         background-color: white;
         color: black;
