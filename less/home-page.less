@@ -15,18 +15,29 @@
   }
 
   .space-images {
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
-
+    display: flex;
+    flex-wrap: wrap
+  
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
-    }
-  }
 
+      #sky {
+        margin: 50%;
+      }
+    
+      #launch {
+        padding: 50%;
+      }
+    }
+
+    
+  }
+  
+  
 
   .visit-planets {
     padding: 15px;
@@ -59,7 +70,11 @@
       }
 
       .btn {
-        .btn;
+        .sign-up-btn(1.8rem; 2px);
+
+        @media @phone {
+          width: 100%;
+        }
       }
     }
 
@@ -71,6 +86,11 @@
         width: 100%;
         height: auto;
         border-radius: 10px;
+
+        @media @phone {
+          display: block;
+          width: 100%;
+        }
       }
     }
   }

@@ -5,18 +5,19 @@
     font-size: @font-size;
 }
 
-.p-font (@font-size; @line-height;) {
+.p-font(@font-size, @line-height) {
     font-family: 'Ubuntu';
     font-size: @font-size;
     line-height: @line-height;
 }
 
-.btn (@font-size: 2rem; @border-radius: 2px) {
+.sign-up-btn(@font-size, @border-radius) {
     font-size: @font-size;
     border-radius: @border-radius;
     text-decoration: none;
     background-color: black;
     color: white;
+
     &:hover {
         background-color: white;
         color: black;
