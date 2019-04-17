@@ -1,1 +1,26 @@
 // Mixins Here
+
+.header-font(@font-size) {
+    font-family: 'Russo One';
+    font-size: @font-size;
+}
+
+.p-font(@font-size, @line-height) {
+    font-family: 'Ubuntu';
+    font-size: @font-size;
+    line-height: @line-height;
+}
+
+.sign-up-btn(@font-size, @border-radius) {
+    font-size: @font-size;
+    border-radius: @border-radius;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+
+    &:hover {
+        background-color: white;
+        color: black;
+    }  
+}
+
